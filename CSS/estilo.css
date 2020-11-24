@@ -1,0 +1,13 @@
+/*dica de site com paleta de cores: html-color-codes*/
+.navbar{
+	background-color: #FF5733;
+	height: 80px;
+}
+.quem-somos{
+	background-color:#D7BDE2;
+}
+.margin{
+	padding-botton:50px;
+}
+
+.navbar img{padding-bottom:17.5px;}
