@@ -1,13 +1,28 @@
+*{	margin:0; 	padding:0; 	box-sizing:border-box; }/*Reset nos elementos básicos da página*/
+
 /*dica de site com paleta de cores: html-color-codes*/
-.navbar{
-	background-color: #FF5733;
-	height: 80px;
-}
-.quem-somos{
-	background-color:#D7BDE2;
-}
-.margin{
-	padding-botton:50px;
-}
+.navbar{ background-color: #DC50DE; }
+	
+.navbar a{ font-family: verdana; color:#5D0A5E; font-size:18.5px; font-weight:bold;}
 
 .navbar img{padding-bottom:17.5px;}
+
+.quem-somos{ background-color:#5D0A5E; COLOR:#05FA1C; margin-top:-20px; letter-spacing: 7px;}
+	
+.margin{padding-top:15px; 	padding-bottom:25px;}
+
+.img{display:flex; 	align-items:center;
+}
+.parceiros{background-color:#DC50DE; COLOR:#05FA1C; letter-spacing: 7px;}
+
+.servicos{background-color:#5D0A5E; COLOR:#05FA1C; font-family: verdana; font-size:13px; line-height:2.5EM; }
+
+.bg-footer{background-color:#DC50DE; color:#05FA1C; padding:10px; font-family: verdana;  letter-spacing: 7px;} 
+
+.tam{width:100%; margin-bottom: 15px;}
+
+.tam1{width:300px; height:300px;}
+
+nav a:hover{background-color:#5D0A5E;}
+
+.servico{letter-spacing: 7px;}

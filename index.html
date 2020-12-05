@@ -6,43 +6,94 @@
 	<meta nome="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="Stylesheet" href="css/estilo.css">
 	<link rel="Stylesheet" href="BootStrap/css/bootstrap.min.css" type="text/css">
-	
-	
+	<link rel="Stylesheet" href="BootStrap/css/bootstrap.css" type="text/css">
+	<style type="text/css">
+		.cor {color:lime;  font-size:1000px;}
+	</style>
 </head>
 <body>
-<header>
+<header class="barra">
 <!-- opção p baixar imagens pexels-->
-<div>
+
 	<nav class="navbar navbar-expand-lg navbar-light">
 		<a class="navbar-brand" href="#">
 			<img src="img/logo_boot.png" alt="logo" width="160" height="70">
 		</a>
 		<div class="collapse navbar-collapse">
 			<ul class="navbar-nav">
-				
-					<a class="navbar-brand" href="#">Quem somos</a>
-				
-				
-					<a class="navbar-brand" href="#">Parceiros</a>
-				
-				
-					<a class="navbar-brand" href="#">Serviços</a>
-				
+				<li class="nav-item">
+					<a class="navbar-brand cor" style="color:lime;" href="#">Quem somos</a>
+				</li>
+				<li class="nav-item">
+					<a class="navbar-brand" style="color:lime;" href="#">Parceiros</a>
+				</li>
+				<li class="nav-item">
+					<a class="navbar-brand" style="color:lime;" href="#">Serviços</a>
+				</li>
 			</ul>
 		
 		</div>
 	</nav>
-</div>
 </header>
+
 <section id="quemsomos">
 <!-- Drentro do bootStrap tem a classe fluid. Ao acrescentar fluid o container passa a ocupar a margem inteira-->
-<!-- Além disso, no bootStrap há a class text-center, como o nome diz centraliza o texto-->
-	<div class="container-fluid quem-somos margin">
-		
-		
-		<h2 class="text-center "> teste</h2>
+<!-- Além disso, no bootStrap há a class text-center, como o nome diz centraliza o texto, na verdade vai centralizar tudo q está contido no container-->
+	<div class="container-fluid quem-somos text-center">
+		<h1> QUEM SOMOS</h1>
+		<img src="img/equipe.jpg" class="rounded-circle tam1">
+		<h3 CLASS="margin"> SOMOS UM TIME COMPROMETIDO COM O RESULTADO</h3>
 	</div>
 </section>
+
+<SECTION id="parceiros">
+	<div class="container-fluid text-center parceiros margin">
+		<h1 class="margin"> PARCEIROS</h1>
+		<div class="container"> <!-- iniciando a construção do container-->
+			<div class="row">
+				<div class="col md-4"><!--Penso que aqui vai dar o start p dividir-->
+					<img src="img/pag1.jpg" width="50%" class="rounded-circle tam1">
+				</div>
+				<div class="col md-4"><!--Penso que aqui vai dar o stat p dividir-->
+					<img src="img/pag2.png" width="50%" class="rounded-circle tam1">
+				</div>
+				<div class="col md-4"><!--Penso que aqui vai dar o stat p dividir-->
+					<img src="img/pag3.jpg" width="50%" class="rounded-circle tam1">
+				</div>
+			</DIV>
+				
+	</div>
+</SECTION>
+<section id="serviços"> 
+	<div class="container-fluid text-center servicos">
+		<h1 class="margin servico">SERVIÇOS</h1>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4"><!--Esse número é p definir a grade q pode ser no máximo 12-->
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, 
+						sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing."</p>
+						<img src="img/pag1.jpeg" class="tam">
+					</div>
+					<div class="col-lg-4">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, 
+						sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing."</p>
+						
+						<img src="img/pag2.jpeg" class="tam">
+					</div>
+					<div class="col-lg-4"><!--Esse número é p definir a grade q pode ser no máximo 12-->
+						<p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, 
+						sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing."</p>
+						<img src="img/pag3.jpeg" class="tam">
+					</div>
+				</div>
+	
+			</div>
+	</div>
+</section>
+<footer class="container-fluid text-center bg-footer">
+	<h6 class="margin-footer"> Desenvolvido por Eliana Pereira</h6>
+	
+</footer>
 </body>
 </html>
 
